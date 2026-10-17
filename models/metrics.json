@@ -1,0 +1,45 @@
+{
+  "trained_at": "2026-10-17T17:59:46.629757+00:00",
+  "model": "random_forest",
+  "cv_accuracy": {
+    "random_forest": 0.9932,
+    "gradient_boosting": 0.9869
+  },
+  "test_accuracy": 0.9955,
+  "test_macro_f1": 0.9955,
+  "n_train": 1760,
+  "n_test": 440,
+  "classes": [
+    "apple",
+    "banana",
+    "blackgram",
+    "chickpea",
+    "coconut",
+    "coffee",
+    "cotton",
+    "grapes",
+    "jute",
+    "kidneybeans",
+    "lentil",
+    "maize",
+    "mango",
+    "mothbeans",
+    "mungbean",
+    "muskmelon",
+    "orange",
+    "papaya",
+    "pigeonpeas",
+    "pomegranate",
+    "rice",
+    "watermelon"
+  ],
+  "feature_importance": {
+    "N": 0.1039,
+    "P": 0.1537,
+    "K": 0.1792,
+    "temperature": 0.0758,
+    "humidity": 0.2119,
+    "ph": 0.0539,
+    "rainfall": 0.2215
+  }
+}

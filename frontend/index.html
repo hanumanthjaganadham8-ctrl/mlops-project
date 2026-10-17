@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f7ef">
+  <title>Fieldwise — Crop recommendation</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script src="/assets/app.js" defer></script>
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="/" aria-label="Fieldwise home"><span class="brand-mark">f</span> fieldwise</a><span class="service"><i></i> Recommendation service</span></header>
+  <main>
+    <section class="intro"><div class="eyebrow">YOUR FIELD, YOUR NEXT MOVE</div><h1>Find the right crop<br>for <em>your conditions.</em></h1><p>Enter your soil and climate readings to get a tailored recommendation with a confidence score and alternatives.</p></section>
+    <div class="workspace">
+      <section class="card form-card"><div class="card-heading"><div><div class="eyebrow">FIELD CONDITIONS</div><h2>Tell us about your field</h2></div><span class="step">01 / 02</span></div>
+        <form id="recommend-form"><div id="fields" class="fields"></div><div id="form-error" class="error" role="alert" hidden></div><button id="submit-button" type="submit"><span>Get recommendation</span><span aria-hidden="true">↗</span></button><p class="form-note">Your readings are used only to generate this recommendation.</p></form>
+      </section>
+      <section class="card result-card" aria-live="polite"><div class="card-heading"><div><div class="eyebrow">YOUR RESULT</div><h2>Crop recommendation</h2></div><span class="result-icon">✳</span></div><div id="result-content" class="result-content"><div class="empty-art"><span>✳</span><span>⌁</span><span>✳</span></div><h3>Your field has potential.</h3><p>Complete the field conditions and your recommendation will appear here.</p><div class="empty-rule"></div><small>Based on 7 soil &amp; climate indicators</small></div></section>
+    </div>
+    <footer><span>FIELDWISE <b>·</b> SMARTER GROWING STARTS HERE</span><a href="/docs" target="_blank" rel="noreferrer">API documentation ↗</a></footer>
+  </main>
+</body>
+</html>
